@@ -12,7 +12,7 @@ public class Exercicio2 {
         System.out.print("Qual o nome do paciente? ");
         nome = kb.nextLine();
 
-        System.out.print("Qual o gênero do paciente é masculino? (true = sim false = não) ");
+        System.out.print("Qual o gênero do paciente é masculino? (sim = true não = false) ");
         masculino = kb.nextBoolean();
 
         System.out.print("Qual a altura do paciente? (em metros)");
@@ -20,11 +20,11 @@ public class Exercicio2 {
 
         if (masculino) {
             pesoIdeal = 72.7 * altura - 58;
-            System.out.print("O peso ideal do paciente " + nome + " é " + pesoIdeal);
         } else {
             pesoIdeal = 62.1 * altura - 44.7;
-            System.out.print("O peso ideal da paciente " + nome + " é " + pesoIdeal);
         }
+        
+        System.out.println("O peso ideal da paciente " + nome + " é " + pesoIdeal);
 
         kb.close();
     }

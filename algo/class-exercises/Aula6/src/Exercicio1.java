@@ -5,7 +5,7 @@ public class Exercicio1 {
         Scanner kb = new Scanner(System.in);
 
         int diarias;
-        double conta = 150;
+        double conta;
 
         System.out.print("Digite quantas diárias o cliente ficou: ");
         diarias = kb.nextInt();
@@ -13,14 +13,13 @@ public class Exercicio1 {
         kb.close();
 
         if (diarias > 15) {
-            conta = conta + 15.5 * diarias;
+            conta = 150 + 15.5 * diarias;
         } else if (diarias == 15) {
-            conta = conta + 36 * diarias;
+            conta = 150 + 36 * diarias;
         } else {
-            conta = conta + 58 * diarias;
+            conta = 150 + 58 * diarias;
         }
 
         System.out.println("Conta do cliente: " + conta);
-
     }
 }

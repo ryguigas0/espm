@@ -10,27 +10,30 @@ public class Exercicio3 {
         System.out.print("a --> ");
         a = kb.nextDouble();
 
-        System.out.print("b --> ");
-        b = kb.nextDouble();
+        if (a != 0) {
+            System.out.print("b --> ");
+            b = kb.nextDouble();
 
-        System.out.print("c --> ");
-        c = kb.nextDouble();
+            System.out.print("c --> ");
+            c = kb.nextDouble();
 
-        kb.close();
+            delta = b * b - 4 * a * c;
 
-        delta = b * b - 4 * a * c;
-
-        if (delta >= 0 && a != 0) {
-            x1 = (delta - b) / (2 * a);
-            if (delta == 0) {
-                x2 = x1;
+            if (delta >= 0) {
+                x1 = (Math.sqrt(delta) - b) / (2 * a);
+                if (delta == 0) {
+                    x2 = x1;
+                } else {
+                    x2 = (-Math.sqrt(delta) - b) / (2 * a);
+                }
+                System.out.println("x1 = " + x1 + " x2 = " + x2);
             } else {
-                x2 = (-delta - b) / (2 * a);
+                System.out.println("Não há raíz real");
             }
-            System.out.println("x1 --> " + x1 + " x2 -->" + x2);
         } else {
-            System.out.println("Não há raízes reais");
+            System.out.println("Não é uma equação do segundo grau");
         }
 
+        kb.close();
     }
 }
