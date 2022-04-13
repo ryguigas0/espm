@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Exercicio5 {
     public static void main(String[] args) {
         Scanner kb = new Scanner(System.in);
-        int a, b, c;
+        int a, b, c, aux;
 
         System.out.print("a --> ");
         a = kb.nextInt();
@@ -16,30 +16,31 @@ public class Exercicio5 {
 
         kb.close();
 
-        if (a < b && a < c) {
-            // a é o menor
-            if (b >= c) {
-                // b é maior que c
-                System.out.println("Ordem crescente: " + a + ", " + c + ", " + b);
-            } else {
-                System.out.println("Ordem crescente: " + a + ", " + b + ", " + c);
-            }
-        } else if (b < a && b < c) {
-            // b é o menor
-            if (a >= c) {
-                // a é maior que c
-                System.out.println("Ordem crescente: " + b + ", " + c + ", " + a);
-            } else {
-                System.out.println("Ordem crescente: " + b + ", " + a + ", " + c);
-            }
-        } else {
-            // c é menor
-            if (a >= b) {
-                // a é maior que b
-                System.out.println("Ordem crescente: " + c + ", " + b + ", " + a);
-            } else {
-                System.out.println("Ordem crescente: " + c + ", " + a + ", " + b);
-            }
+        System.out.println("Ordem crescente: " + a + ", " + c + ", " + b);
+
+        if (!(a < b)) {
+            aux = b;
+            b = a;
+            a = aux;
         }
+        System.out.println("Ordem crescente: " + a + ", " + c + ", " + b);
+
+        if (!(a < c)) {
+            aux = c;
+            c = a;
+            a = aux;
+        }
+
+        System.out.println("Ordem crescente: " + a + ", " + c + ", " + b);
+
+        if (!(b < c)) {
+            aux = b;
+            b = c;
+            c = aux;
+        }
+
+        // 12 15 21
+
+        System.out.println("Ordem crescente: " + a + ", " + b + ", " + c);
     }
 }
