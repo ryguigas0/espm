@@ -6,19 +6,19 @@ public class Exercicio2 {
 
         double altura;
         String nome;
-        boolean masculino;
+        String masculino;
         double pesoIdeal;
 
         System.out.print("Qual o nome do paciente? ");
         nome = kb.nextLine();
 
-        System.out.print("Qual o gênero do paciente é masculino? (sim = true não = false) ");
-        masculino = kb.nextBoolean();
+        System.out.print("Qual o gênero do paciente? (masculino ou feminino) ");
+        masculino = kb.nextLine();
 
-        System.out.print("Qual a altura do paciente? (em metros)");
+        System.out.print("Qual a altura do paciente? (em metros) ");
         altura = kb.nextDouble();
 
-        if (masculino) {
+        if (masculino.equals("masculino")) {
             pesoIdeal = 72.7 * altura - 58;
         } else {
             pesoIdeal = 62.1 * altura - 44.7;
