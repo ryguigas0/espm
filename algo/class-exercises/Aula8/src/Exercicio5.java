@@ -5,7 +5,7 @@ public class Exercicio5 {
 
         int counter = 1;
         while (counter <= 20) {
-            y += (double) 1 / counter;
+            y += 1.0 / counter;
             counter++;
         }
 

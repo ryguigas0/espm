@@ -7,8 +7,14 @@ public class Exercicio6 {
 
         Scanner kb = new Scanner(System.in);
 
-        System.out.print("Insira o valor de n --> ");
-        n = kb.nextInt();
+        do {
+            System.out.print("Insira o valor de n --> ");
+            n = kb.nextInt();
+
+            if (n <= 0) {
+                System.out.println("Insira um valor positivo");
+            }
+        } while (n <= 0);
 
         kb.close();
 
