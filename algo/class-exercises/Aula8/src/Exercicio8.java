@@ -9,13 +9,13 @@ public class Exercicio8 {
         do {
             System.out.print("Escreva um número positivo: ");
             input = kb.nextInt();
-        } while (input < 0);
+        } while (input <= 0);
 
         kb.close();
 
         boolean primo = true;
 
-        for (int num = 2; num < input; num++) {
+        for (int num = 2; num < input && primo; num++) {
             if (input % num == 0) {
                 primo = false;
             }

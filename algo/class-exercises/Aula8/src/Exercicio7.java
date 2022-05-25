@@ -21,10 +21,8 @@ public class Exercicio7 {
         // }
 
         for (int num = -input; num <= input; num++) {
-            if (num != 0) {
-                if (input % num == 0) {
-                    System.out.println(input + " é divisível por " + num);
-                }
+            if (num != 0 && input % num == 0) {
+                System.out.println(input + " é divisível por " + num);
             }
         }
     }

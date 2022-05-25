@@ -12,12 +12,16 @@ public class Exercicio10 {
         } while (n < 0);
 
         double total = 0.0;
+        // int sinal = 1;
         for (int denominador = 1; denominador <= n; denominador++) {
             if (denominador % 2 != 0) {
                 total += 1.0 / denominador;
             } else {
                 total -= 1.0 / denominador;
             }
+
+            // total += 1.0 / denominador * sinal;
+            // sinal *= -1;
         }
 
         System.out.println("Resultado: " + total);
