@@ -3,22 +3,30 @@ import java.util.Scanner;
 public class Questao4 {
     public static void main(String[] args) {
         Scanner kb = new Scanner(System.in);
-        int digitos, digito;
-        double num = 0;
+        int tri, auxTri, quantDigitos = 0;
+        double digito, num = 0;
 
         do {
-            System.out.print("Digite quantos digitos tem o número em trinário --> ");
-            digitos = kb.nextInt();
-        } while (digitos <= 0);
-
-        for (int i = 0; i < digitos; i++) {
-            System.out.print("Digite o digito " + (i + 1) + " (da direita para a esquerda) --> ");
-            digito = kb.nextInt();
-            num += digito * Math.pow(3, i);
-        }
+            System.out.print("Digite o número em trinário --> ");
+            tri = kb.nextInt();
+        } while (tri <= 0);
 
         kb.close();
 
-        System.out.println("O número em decimal é: " + String.format("%.0f", num));
+        while (tri - Math.pow(10, quantDigitos) >= 0) {
+            quantDigitos++;
+        }
+
+        auxTri = tri;
+        for (int i = 0; i < quantDigitos; i++) {
+            digito = auxTri % 10;
+
+            num += digito * Math.pow(3, i);
+
+            auxTri /= 10;
+        }
+
+        System.out.println(tri + " em decimal é: " + String.format("%.0f", num));
+
     }
 }
