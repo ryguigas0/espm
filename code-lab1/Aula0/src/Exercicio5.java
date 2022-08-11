@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exercicio4 {
+public class Exercicio5 {
     public static void main(String[] args) {
         double[] temperaturas = new double[7];
         String[] diasSemana = { "domingo", "segunda", "terça", "quarta", "quinta", "sexta", "sábado" };
@@ -16,26 +16,30 @@ public class Exercicio4 {
 
         kb.close();
 
-        double soma = 0;
+        double soma = 0, maior = temperaturas[0];
 
         for (int i = 0; i < temperaturas.length; i++) {
             soma += temperaturas[i];
+
+            if (maior < temperaturas[i]) {
+                maior = temperaturas[i];
+            }
         }
 
-        double media = soma / temperaturas.length;
+        double media = soma / temperaturas.length, prporcaoBarrinhas = maior / temperaturas.length;
 
         System.out.println("Temperaturas acima da media (" + String.format("%.2f", media) + ")");
 
         for (int i = 0; i < temperaturas.length; i++) {
             double valor = temperaturas[i];
+            String dia = diasSemana[i], barrinhas = "";
 
-            if (valor <= media) {
-                continue;
+            for (int j = 0; j < valor / prporcaoBarrinhas; j++) {
+                barrinhas += "-";
             }
 
-            String dia = diasSemana[i];
+            System.out.println(dia + ": " + String.format("%.2f", valor) + " " + barrinhas);
 
-            System.out.println(dia + " --> " + String.format("%.2f", valor));
         }
     }
 }
