@@ -38,7 +38,7 @@ public class Exercicio5 {
                 barrinhas += "-";
             }
 
-            System.out.println(dia + ": " + String.format("%.2f", valor) + " " + barrinhas);
+            System.out.println(String.format("%-7s -> %s", dia, barrinhas));
 
         }
     }
