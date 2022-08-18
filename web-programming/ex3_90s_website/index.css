@@ -18,6 +18,11 @@ body {
   text-align: center;
 }
 
+.limitador {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
 p {
   font-size: 25px;
 }

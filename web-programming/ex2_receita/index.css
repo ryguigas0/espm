@@ -14,6 +14,11 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.limitador {
+  max-width: 1400px;
+  margin: 0 auto 0 auto;
+}
+
 /* Faz ocupar 100% do elemento pai -> se for uma div ela se auto regula */
 img {
   max-width: 100%;
