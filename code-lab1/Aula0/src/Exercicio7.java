@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class Exercicio7 {
     public static void main(String[] args) {
-        Random r = new Random();
 
         Scanner kb = new Scanner(System.in);
 
@@ -15,23 +14,11 @@ public class Exercicio7 {
         int[] nums = new int[qtd];
 
         for (int i = 0; i < nums.length; i++) {
-            int novoNum = r.nextInt(qtd) + 1;
-            boolean temAntes = false;
+            int novoNum;
 
             do {
-                for (int j = 0; j < i; j++) {
-                    if (nums[j] == novoNum) {
-                        temAntes = true;
-                        break;
-                    } else {
-                        temAntes = false;
-                    }
-                }
-
-                if (temAntes) {
-                    novoNum = r.nextInt(qtd) + 1;
-                }
-            } while (temAntes);
+                novoNum = gerarNumeroAleatorio(qtd);
+            } while (numeroPresenteNaLista(nums, novoNum));
 
             nums[i] = novoNum;
         }
@@ -41,5 +28,22 @@ public class Exercicio7 {
         }
 
         System.out.println();
+    }
+
+    public static int gerarNumeroAleatorio(int qtd) {
+        Random r = new Random();
+
+        return r.nextInt(qtd) + 1;
+    }
+
+    public static boolean numeroPresenteNaLista(int[] numeros, int alvo) {
+
+        for (int i = 0; i < numeros.length; i++) {
+            if (numeros[i] == alvo) {
+                return true;
+            }
+        }
+
+        return false;
     }
 }

@@ -6,7 +6,8 @@ public class Exercicio3 {
         Scanner kb = new Scanner(System.in);
 
         // int tamanho = kb.nextInt(), primos = 0;
-        int tamanho = 5, primos = 0;
+        int tamanho = 1000, primos = 0;
+        // int tamanho = 5, primos = 0;
 
         int[] arr = new int[tamanho];
 
@@ -14,7 +15,7 @@ public class Exercicio3 {
             arr[i] = kb.nextInt();
 
             boolean primo = true;
-            for (int j = arr[i] - 1; j >= 2; j--) {
+            for (int j = arr[i]; j >= 2; j--) {
                 if (arr[i] % j == 0) {
                     primo = false;
                     break;
@@ -28,6 +29,6 @@ public class Exercicio3 {
 
         kb.close();
 
-        System.out.println("Quantidade de números pares armazenado é: " + primos);
+        System.out.println("Quantidade de números primos armazenado é: " + primos);
     }
 }

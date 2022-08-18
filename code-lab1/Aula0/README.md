@@ -23,3 +23,30 @@ Cria um array que guarde 42 inteiros
     r.nextInt() % 100 // Gera um número inteiro entre 0 e 99
     r.nextDouble() * 90 // Gera um número real entre 0 e 90
 ```
+
+### Métodos: isolando o código
+
+```java
+    // public -> Esse método pode ser acessado externamente
+    // static -> Esse método pode ser usado sem criar um objeto da classe
+    // tipoRetorno -> qual o tipo de retorno do dado
+    // nomeFuncao -> qual o nome do método para ser chamado
+    // tipoParametro -> qual o tipo do argumento que o método recebe
+    // nomeParametro -> nome do argumento que o método recebe
+
+    public static tipoRetorno nomeFuncao(tipoParametro nomeParametro, tipoParametro outroParametro){
+        ...
+        // 40000 linhas
+        ...
+        return resultado // Encerra a função e retorna esse valor
+    }
+
+    // void -> sem valor de retorno
+    public static void main (String args[]){
+        nomeFuncao(42, "life"); // a função recebe argumentos
+        nomeFuncao(32, "sadness");
+        nomeFuncao(22, "hapiness");
+        nomeFuncao(12, "lawless");
+        // 4 linhas que valem por 160000 linhas
+    }
+```
