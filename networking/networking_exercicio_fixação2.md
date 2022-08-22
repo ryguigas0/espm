@@ -16,14 +16,14 @@
 
 ### Etapa 1
 
-1.  Quais informações são exibidas para o comando enable? Habilita comandos privilegiados
-2.  O que é exibido após pressionar a tecla Tab após digitar en? O que acontece se você digitar te no prompt? Completa o comando para `enable`. Acontece nada
-3.  Como o prompt muda após digitar enable? A linha de comando troca o sinal de maior (">") para o hashtag ("#")
-4.  Cite um comando começa com a letra “C” no modo EXEC usuário e quantos comandos são exibidos agora que o modo EXEC privilegiado está ativo? `connect` e são exibidos três comandos que começam com c no modo EXEC privilegiado
+1. Quais informações são exibidas para o comando enable? Habilita comandos privilegiados
+2. O que é exibido após pressionar a tecla Tab após digitar en? O que acontece se você digitar te no prompt? Completa o comando para `enable`. Acontece nada
+3. Como o prompt muda após digitar enable? A linha de comando troca o sinal de maior (">") para o hashtag ("#")
+4. Cite um comando começa com a letra “C” no modo EXEC usuário e quantos comandos são exibidos agora que o modo EXEC privilegiado está ativo? `connect` e são exibidos três comandos que começam com c no modo EXEC privilegiado
 
 ### Etapa 2
 
-1. Qual é a mensagem exibida após usar o comando `configure` no modo EXEC privilegiado? `Configuring from terminal, memory, or network [terminal]? `
+1. Qual é a mensagem exibida após usar o comando `configure` no modo EXEC privilegiado? `Configuring from terminal, memory, or network [terminal]?`
 2. Como o prompt muda? O prompt inclui, entre parêntesis, ao lado do nome do dispositivo a palavra config
 
 ## Parte 2
