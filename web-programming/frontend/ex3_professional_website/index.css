@@ -34,8 +34,7 @@
 }
 
 .container {
-  padding: 1rem;
-  min-height: 100vh;
+  max-width: 500px;
 }
 
 .limitador {
@@ -112,22 +111,37 @@ button.button4:hover {
   color: var(--button4-primary-color);
 }
 
+.segment {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+}
+
 .segment1 {
   background-image: url(./fundo1.jpg);
   color: cornsilk;
+  justify-content: center;
+  align-items: center;
 }
 
 .segment2 {
   background-image: url(./fundo2.jpg);
   color: cornsilk;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .segment3 {
   background-image: url(./fundo3.jpg);
   color: cornsilk;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .segment4 {
   background-image: url(./fundo4.png);
   color: cornsilk;
+  justify-content: center;
+  align-items: center;
 }
