@@ -3,14 +3,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(12, 12, 12);
+  background-color: rgb(90, 90, 90);
   color: white;
 
-  background-image: url("../background1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-blend-mode: color-dodge;
+  background-blend-mode: multiply;
 }
 
 .landing-content {

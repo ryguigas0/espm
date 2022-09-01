@@ -33,3 +33,19 @@ body {
   border: none;
   background-color: white;
 }
+
+.background-image1 {
+  background-image: url("../images/background_landing.png");
+}
+
+.background-image2 {
+  background-image: url("../images/background_landing.png");
+}
+
+.background-image3 {
+  background-image: url("../images/background_landing.png");
+}
+
+.background-image4 {
+  background-image: url("../images/background_landing.png");
+}
