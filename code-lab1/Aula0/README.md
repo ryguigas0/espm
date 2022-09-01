@@ -49,4 +49,6 @@ Cria um array que guarde 42 inteiros
         nomeFuncao(12, "lawless");
         // 4 linhas que valem por 160000 linhas
     }
+
+    // Vários métodos com o mesmo nome, mas parâmetros diferente -> SOBRECARGA de métodos
 ```
