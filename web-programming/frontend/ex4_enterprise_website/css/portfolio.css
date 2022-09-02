@@ -28,12 +28,26 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  background-color: black;
   color: white;
   max-width: 32rem;
   min-height: 27rem;
   margin: 1.5rem;
   padding: 1rem;
+}
+
+.banner.background-image2 {
+  background-size: cover;
+  background-position: 20% 50%;
+}
+
+.banner.background-image3 {
+  background-position: center;
+  background-size: cover;
+}
+
+.banner.background-image4 {
+  background-position: 45%;
+  background-size: cover;
 }
 
 .banner-category {
