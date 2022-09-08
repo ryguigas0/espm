@@ -9,19 +9,20 @@ O repositório dos meus projetos, atividades e provas de código na ESPM
 - [Anos 90](https://ryguigas0.github.io/espm/web-programming/frontend/ex3_90s_website/)
 - [Site profissional](https://ryguigas0.github.io/espm/web-programming/frontend/ex3_professional_website/)
 - [Site empresarial](https://ryguigas0.github.io/espm/web-programming/frontend/ex4_enterprise_website/)
+- [Portfolio profissional](https://ryguigas0.github.io/espm/web-programming/frontend/ex5_professional_porfolio/)
 
 ## Ferramentas usadas
 
-- [Lorem Ipsum generator](https://loremipsum.io/generator/)
-- WSL2
-  - Ubuntu
-- asdf
-  - Java plugin
-  - Nodejs plugin
-- Google fonts
-  - [Fonts](https://fonts.google.com/)
-  - [Material icons](https://fonts.google.com/icons)
-- [VSCode](https://code.visualstudio.com/)
+- [Lorem Ipsum generator](https://loremipsum.io/generator/): gerador de texto para design
+- [WSL2](https://docs.microsoft.com/pt-br/windows/wsl/about): rodar linux com windows sem dual booting
+  - [Ubuntu](https://ubuntu.com/): sistema opreacional baseado em linux, disponível no WSL2
+- [asdf](https://asdf-vm.com/): versionamento das ferramentas de programação
+  - [Java plugin](https://github.com/halcyon/asdf-java): plugin para [Java](https://www.java.com/)
+  - [Nodejs plugin](https://github.com/asdf-vm/asdf-nodejs): plugin de versionamento para [Node.js](https://nodejs.org/)
+- Google fonts:
+  - [Fonts](https://fonts.google.com/): fontes de texto para uso
+  - [Material icons](https://fonts.google.com/icons): ícones para uso
+- [VSCode](https://code.visualstudio.com/): editor de código geral e extensível
   - Temas de cores
     - [Bluloco Dark theme](https://marketplace.visualstudio.com/items?itemName=uloco.theme-bluloco-dark)
     - [Dark Horizon](https://marketplace.visualstudio.com/items?itemName=mcagampan.dark-horizon)
