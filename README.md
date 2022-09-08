@@ -12,6 +12,15 @@ O repositório dos meus projetos, atividades e provas de código na ESPM
 
 ## Ferramentas usadas
 
+- [Lorem Ipsum generator](https://loremipsum.io/generator/)
+- WSL2
+  - Ubuntu
+- asdf
+  - Java plugin
+  - Nodejs plugin
+- Google fonts
+  - [Fonts](https://fonts.google.com/)
+  - [Material icons](https://fonts.google.com/icons)
 - [VSCode](https://code.visualstudio.com/)
   - Temas de cores
     - [Bluloco Dark theme](https://marketplace.visualstudio.com/items?itemName=uloco.theme-bluloco-dark)
