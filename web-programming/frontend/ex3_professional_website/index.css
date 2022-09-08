@@ -145,3 +145,53 @@ button.button4:hover {
   justify-content: center;
   align-items: center;
 }
+
+.footer {
+  background-color: rgb(39, 39, 39);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.column {
+  padding: 2em;
+  text-align: left;
+}
+
+.column.info {
+  max-width: 16rem;
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+.about {
+  font-size: 0.9rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.contact {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.contact > .material-icons {
+  color: lightseagreen;
+}
+
+.column {
+  padding: 3rem;
+}
+
+.link-wrapper {
+  min-width: max-content;
+  padding: 0.6rem;
+}
+
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
