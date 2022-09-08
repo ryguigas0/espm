@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class Exercicios6 {
+public class Exercicio6ComMetodos {
     public static void main(String[] args) {
 
         int[] vetor = gerarVetor(10, 75);
