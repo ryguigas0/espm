@@ -37,3 +37,4 @@ O repositório dos meus projetos, atividades e provas de código na ESPM
     - [Git Lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens): histórico de alterações de arquivos e facilitador de git
     - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode): formatador geral
     - [Remote - WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl): acessar arquivos do WSL
+    - [EJS Language Support](https://marketplace.visualstudio.com/items?itemName=DigitalBrainstem.javascript-ejs-support): suporte para [Javascript embutido](https://ejs.co/) no [express.js](https://expressjs.com/)
