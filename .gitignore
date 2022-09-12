@@ -14,3 +14,9 @@
 ## Javascript
 ##############################
 node_modules/
+
+##############################
+## Project ignores
+##############################
+
+web-programming/backend/**/src/*
