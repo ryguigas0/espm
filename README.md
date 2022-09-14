@@ -13,6 +13,7 @@ O repositório dos meus projetos, atividades e provas de código na ESPM
 
 ## Ferramentas usadas
 
+- [Figma](https://www.figma.com/): ferramenta para criar wireframes de telas e flowcharts
 - [Lorem Ipsum generator](https://loremipsum.io/generator/): gerador de texto para design
 - [WSL2](https://docs.microsoft.com/pt-br/windows/wsl/about): rodar linux com windows sem dual booting
   - [Ubuntu](https://ubuntu.com/): sistema opreacional baseado em linux, disponível no WSL2
