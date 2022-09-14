@@ -23,6 +23,7 @@ O repositório dos meus projetos, atividades e provas de código na ESPM
 - Google fonts:
   - [Fonts](https://fonts.google.com/): fontes de texto para uso
   - [Material icons](https://fonts.google.com/icons): ícones para uso
+- [Oracle LiveSQL](https://livesql.oracle.com/): PL-SQL na web
 - [VSCode](https://code.visualstudio.com/): editor de código geral e extensível
   - Temas de cores
     - [Bluloco Dark theme](https://marketplace.visualstudio.com/items?itemName=uloco.theme-bluloco-dark)

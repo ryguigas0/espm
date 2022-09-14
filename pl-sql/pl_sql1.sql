@@ -55,6 +55,9 @@ values (1, 'Guilherme', 'Casagrande', 'Rua topzera 1');
 insert into aluno (id, primeiro_nome, ultimo_nome, endereco)
 values (2, 'Flávia', 'Jonathan', 'Rua maneirassa 2');
 
+insert into aluno (id, primeiro_nome, ultimo_nome, endereco)
+values (3, 'Felipe', 'Jonathan', 'Rua maneirassa 3');
+
 -- Inserindo cursos
 
 insert into curso (id, nome_curso)
@@ -73,6 +76,9 @@ values (2, 1);
 insert into con_aluno_curso (aluno_id, curso_id)
 values (2, 2);
 
+insert into con_aluno_curso (aluno_id, curso_id)
+values (3, 2);
+
 -- Inserindo mensalidade
 
 insert into mensalidade (id, aluno_id, data_vencimento, data_emissao, valor, descricao)
@@ -86,6 +92,9 @@ values (3, 2, '22-SEP-22', '14-SEP-22', 4512.22, 'Mensalidade de setembro');
 
 insert into mensalidade (id, aluno_id, data_vencimento, data_emissao, valor, descricao)
 values (4, 2, '22-OCT-22', '14-OCT-22', 200.00, 'Mensalidade de outubro');
+
+insert into mensalidade (id, aluno_id, data_vencimento, data_emissao, valor, descricao)
+values (5, 3, '22-AUG-22', '14-AUG-22', 200.00, 'Mensalidade de agosto');
 
 -- Inserindo pagamentos
 
@@ -109,6 +118,9 @@ values (7, '20-SEP-22', 200.00);
 insert into pagamento (id, data_pagamento, valor_pago)
 values (8, '21-OCT-22', 200.00);
 
+insert into pagamento (id, data_pagamento, valor_pago)
+values (9, '21-AUG-22', 200.00);
+
 -- Inserindo a conexão entre mensalidade e pagamentos
 
 insert into con_mensalidade_pagamento (mensalidade_id, pagamento_id)
@@ -130,3 +142,48 @@ values (3, 7);
 
 insert into con_mensalidade_pagamento (mensalidade_id, pagamento_id)
 values (4, 8);
+
+insert into con_mensalidade_pagamento (mensalidade_id, pagamento_id)
+values (5, 9);
+
+-- Questão 2: Criar uma view que exiba o nome, o endereço, a data de vencimento e o 
+-- valor de todos os alunos que não efetuaram pagamento até a presente 
+-- data.
+
+create view alunos_faltando_pagar_ate_hoje as 
+select
+    (a.primeiro_nome || ' ' || a.ultimo_nome) as nome_aluno,
+    a.endereco as endereco_aluno,
+    m.data_vencimento as vencimento_boleto,
+    m.valor as valor_boleto,
+    sum(p.valor_pago) as total_pago
+from aluno a
+inner join mensalidade m on a.id = m.aluno_id
+inner join con_mensalidade_pagamento cmp on cmp.mensalidade_id = m.id
+inner join pagamento p on p.id = cmp.pagamento_id
+group by 
+    a.id, a.primeiro_nome, a.ultimo_nome, a.endereco, 
+    m.id, m.data_vencimento, m.valor, 
+    cmp.mensalidade_id
+having sum(p.valor_pago) != m.valor;
+
+-- Questão 3: Criar uma view que exiba a matricula e o nome dos alunos que não 
+-- tenham mensalidades emitidas.
+
+create view alunos_que_nao_emitiram_mensalidade as
+select 
+    a.id as matricula_aluno,
+    a.primeiro_nome
+from aluno a
+left join mensalidade m on m.aluno_id = a.id
+group by a.id, a.primeiro_nome, to_char(sysdate, 'MM')
+having to_char(sysdate, 'MM') > max(to_char(m.data_emissao, 'MM'));
+
+-- Questão 4: Criar uma view que exiba o nome do aluno, o nome do curso e a 
+-- quantidade de dias entre a data de vencimento e data atual de alunos que 
+-- pagam a mensalidade com antecedência
+
+-- Questão 5: Consultar estas views usando o comando SELECT
+
+-- Questão 6: Apagar a view criada no exercício de número 2
+drop view alunos_faltando_pagar_ate_hoje;
