@@ -24,7 +24,7 @@ Cria um array que guarde 42 inteiros
     r.nextDouble() * 90 // Gera um número real entre 0 e 90
 ```
 
-### Métodos: isolando o código
+## Métodos: isolando o código
 
 ```java
     // public -> Esse método pode ser acessado externamente
