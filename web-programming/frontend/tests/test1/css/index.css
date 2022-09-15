@@ -32,14 +32,3 @@ img {
   height: 100vh;
   display: flex;
 }
-
-/* .button-link { 
-  text-decoration: none;
-  text-align: center;
-  color: var(--dark-theme-text-color);
-  background-color: var(--primary-color);
-  width: fit-content;
-  border-style: solid;
-  border-radius: 1rem;
-  padding: 0.5em 1em;
-} */

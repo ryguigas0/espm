@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/introduction.css" />
     <link rel="stylesheet" href="./css/features.css" />
-    <link rel="stylesheet" href="./css/preview.css">
+    <link rel="stylesheet" href="./css/preview.css" />
+    <link rel="stylesheet" href="./css/info.css" />
+    <link rel="stylesheet" href="./css/faq.css" />
     <title>LOGO API</title>
   </head>
   <body>
@@ -73,12 +75,18 @@
       </div>
     </div>
     <div class="container preview">
-      <h1>O que é possível</h1>
-      <img src="./public/preview.png" alt="Imagem preview" />
+      <div class="title-wrapper">
+        <h1>O que é possível</h1>
+      </div>
+      <div class="image-wrapper">
+        <div class="image-container">
+          <img src="./public/preview.png" alt="Imagem preview" />
+        </div>
+      </div>
     </div>
     <div class="container info">
-      <h1>Reduza a complexidade do seu banco de dados</h1>
       <div class="info-board">
+        <h1>Reduza a complexidade do seu banco de dados</h1>
         <div class="info-column">
           <div class="info-card">
             <div class="info-card-title">Síncronia entre times</div>
@@ -105,38 +113,48 @@
             </div>
           </div>
         </div>
-        <img src="./public/preview.png" alt="Preview image" class="info-img" />
+      </div>
+      <div class="image-wrapper">
+        <div class="info-image">
+          <img
+            src="./public/preview.png"
+            alt="Preview image"
+            class="info-img"
+          />
+        </div>
       </div>
     </div>
-    <div class="container faq">
-      <h1>Perguntas frequentes</h1>
-      <h2>
-        Perguntas que nossos usuários tem frequentemente quando usam nosso
-        aplicativo
-      </h2>
-      <div class="card-row">
-        <div class="card">
-          <div class="card-title">Porque GraphQL?</div>
-          <div class="card-content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Laoreet
-            sit amet cursus sit amet dictum sit amet.
+    <div class="container">
+      <div class="faq">
+        <h1>Perguntas frequentes</h1>
+        <h2>
+          Perguntas que nossos usuários tem frequentemente quando usam nosso
+          aplicativo
+        </h2>
+        <div class="card-row">
+          <div class="card">
+            <div class="card-title">Porque GraphQL?</div>
+            <div class="card-content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Laoreet sit amet cursus sit amet dictum sit amet.
+            </div>
           </div>
-        </div>
-        <div class="card">
-          <div class="card-title">Porque JavaScript?</div>
-          <div class="card-content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Laoreet
-            sit amet cursus sit amet dictum sit amet.
+          <div class="card">
+            <div class="card-title">Porque JavaScript?</div>
+            <div class="card-content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Laoreet sit amet cursus sit amet dictum sit amet.
+            </div>
           </div>
-        </div>
-        <div class="card">
-          <div class="card-title">Quando devo usar?</div>
-          <div class="card-content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Laoreet
-            sit amet cursus sit amet dictum sit amet.
+          <div class="card">
+            <div class="card-title">Quando devo usar?</div>
+            <div class="card-content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Laoreet sit amet cursus sit amet dictum sit amet.
+            </div>
           </div>
         </div>
       </div>
