@@ -15,7 +15,26 @@ class IndexRoute {
 	}
 
 	public async produtos(req: app.Request, res: app.Response) {
-		res.render("index/produtos");
+		let products = [
+			{
+				id: 1,
+				name: "Produto A",
+				description: "Esse produto é bem top 🍰"
+			},
+			{
+				id: 2,
+				name: "Produto B",
+				description: "Esse produto é bem top 🎉"
+			},
+			{
+				id: 3,
+				name: "Produto C",
+				description: "Esse produto é bem top 🚀"
+			}
+		]
+
+
+		res.render("index/produtos", {products: products});
 	}
 }
 
