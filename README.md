@@ -51,6 +51,8 @@ O repositório dos meus projetos, atividades e provas de código na ESPM
       histórico de alterações de arquivos e facilitador de git
     - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode):
       formatador geral
+    - [Prettier SQL VSCode](https://marketplace.visualstudio.com/items?itemName=inferrinizzard.prettier-sql-vscode):
+      formatador geral de SQL
     - [Remote - WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl):
       acessar arquivos do WSL
     - [EJS Language Support](https://marketplace.visualstudio.com/items?itemName=DigitalBrainstem.javascript-ejs-support):
