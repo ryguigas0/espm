@@ -11,6 +11,7 @@ O repositório dos meus projetos, atividades e provas de código na ESPM
 - [Site empresarial](https://ryguigas0.github.io/espm/web-programming/frontend/exercises/ex4_enterprise_website/)
 - [Portfolio profissional](https://ryguigas0.github.io/espm/web-programming/frontend/exercises/ex5_professional_porfolio/)
 - [Prova 1](https://ryguigas0.github.io/espm/web-programming/frontend/tests/test1/)
+- [Exercícios de Javascript](https://ryguigas0.github.io/espm/web-programming/frontend/exercises/ex7_javascript_problems/)
 
 ## Ferramentas usadas
 
