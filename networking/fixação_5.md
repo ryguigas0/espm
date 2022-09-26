@@ -75,7 +75,7 @@ Qual endereço do PC-A? 192.168.1.16
 
 Qual endereço do PC-B? 192.168.1.32
 
-Esses computadores vão poder se comunicar diretamente um com o outro? Sim
+Esses computadores vão poder se comunicar diretamente um com o outro? Não
 
 Qual é o endereço mais alto que pode ser atribuído a PC-B de forma que ele fique
 na mesma rede de PC-A? 192.168.15.254
