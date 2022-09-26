@@ -1,17 +1,18 @@
 # ESPM
 
-O repositório dos meus projetos, atividades e provas de código na ESPM
+Coleção de repositórios que criei durante meus estudos na ESPM
 
-## Minhas páginas web
+## Os repositórios
 
-- [Portfolio](https://ryguigas0.github.io/espm/web-programming/frontend/exercises/ex1_portfolio/)
-- [Receita](https://ryguigas0.github.io/espm/web-programming/frontend/exercises/ex2_receita/)
-- [Anos 90](https://ryguigas0.github.io/espm/web-programming/frontend/exercises/ex3_90s_website/)
-- [Site profissional](https://ryguigas0.github.io/espm/web-programming/frontend/exercises/ex3_professional_website/)
-- [Site empresarial](https://ryguigas0.github.io/espm/web-programming/frontend/exercises/ex4_enterprise_website/)
-- [Portfolio profissional](https://ryguigas0.github.io/espm/web-programming/frontend/exercises/ex5_professional_porfolio/)
-- [Prova 1](https://ryguigas0.github.io/espm/web-programming/frontend/tests/test1/)
-- [Exercícios de Javascript](https://ryguigas0.github.io/espm/web-programming/frontend/exercises/ex7_javascript_problems/)
+- [Programação Web](https://github.com/ryguigas0/web-programming-espm)
+- [UI/UX](https://github.com/ryguigas0/ui-ux-espm)
+- [Laboratório de programação 0](https://github.com/ryguigas0/code-lab0-espm)
+- [Laboratório de programação 1](https://github.com/ryguigas0/code-lab1-espm)
+- [PL/SQL](https://github.com/ryguigas0/pl-sql-espm)
+- [Database Essentials](https://github.com/ryguigas0/db-essentials-espm)
+- [Básicos do Git](https://github.com/ryguigas0/git-basics-espm)
+- [Arquitetura de Computadores](https://github.com/ryguigas0/arq-comp-espm)
+- [Networking](https://github.com/ryguigas0/networking-espm)
 
 ## Ferramentas usadas
 
