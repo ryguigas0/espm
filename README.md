@@ -8,6 +8,7 @@ Coleção de repositórios que criei durante meus estudos na ESPM
 - [UI/UX](https://github.com/ryguigas0/ui-ux-espm)
 - [Laboratório de programação 0](https://github.com/ryguigas0/code-lab0-espm)
 - [Laboratório de programação 1](https://github.com/ryguigas0/code-lab1-espm)
+- [Laboratório de programação 2](https://github.com/ryguigas0/code-lab2-espm)
 - [PL/SQL](https://github.com/ryguigas0/pl-sql-espm)
 - [Database Essentials](https://github.com/ryguigas0/db-essentials-espm)
 - [Básicos do Git](https://github.com/ryguigas0/git-basics-espm)
