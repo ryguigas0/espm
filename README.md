@@ -15,6 +15,7 @@ Coleção de repositórios que criei durante meus estudos na ESPM
 - [Arquitetura de Computadores](https://github.com/ryguigas0/arq-comp-espm)
 - [Networking](https://github.com/ryguigas0/networking-espm)
 - [Projeto interdisciplinar 1 - Tadeu](https://github.com/ryguigas0/tadeu)
+- [Programação Orientada a Objetos + Spring Boot](https://github.com/ryguigas0/object-oriented-programming-espm)
 
 ## Ferramentas usadas
 
