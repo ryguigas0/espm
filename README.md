@@ -14,6 +14,7 @@ Coleção de repositórios que criei durante meus estudos na ESPM
 - [Básicos do Git](https://github.com/ryguigas0/git-basics-espm)
 - [Arquitetura de Computadores](https://github.com/ryguigas0/arq-comp-espm)
 - [Networking](https://github.com/ryguigas0/networking-espm)
+- [Projeto interdisciplinar 1 - Tadeu](https://github.com/ryguigas0/tadeu)
 
 ## Ferramentas usadas
 
