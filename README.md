@@ -8,6 +8,7 @@ Coleção de repositórios que criei durante meus estudos na ESPM
 
 - [API de Cotação](https://github.com/ryguigas0/cotacao-espm)
 - [Estação Metereológica](https://github.com/ryguigas0/whhu-espm)
+- [Gestão de PGT](https://github.com/tech-espm/labs-pgt)
 
 ### Matérias
 
