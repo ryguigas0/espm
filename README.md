@@ -10,6 +10,9 @@ Coleção de repositórios que criei durante meus estudos na ESPM
 - [Estação Metereológica](https://github.com/ryguigas0/whhu-espm)
 - [Gestão de PGT](https://github.com/tech-espm/labs-pgt)
 - [Criador de personagem de Faroeste](https://github.com/ryguigas0/tadeu)
+- [Projeto cordova - Pizzaria](https://github.com/ryguigas0/pizzeria-admin)
+- [Projeto react native - Pesquisa Universidades](https://github.com/ryguigas0/UniversitySearch)
+- [Projeto Flutter - Par ou Ímpar](https://github.com/ryguigas0/odd-even)
 
 ### Matérias
 
